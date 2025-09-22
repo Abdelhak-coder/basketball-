@@ -1,0 +1,91 @@
+@font-face {
+    src: url(fonts/timer.ttf);
+    font-family: timer;
+}
+
+
+body {
+    background-color: #FFFBEB;
+    margin: 0; 
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+h3 {
+    color: #F59E0B;
+}
+
+.score-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.board {
+    margin-top: -15px;
+    border-radius: 5px;
+    padding: 0 10px;
+    width: 70px;
+    background-color: #FDE68A;
+    text-align: center;
+    
+}
+
+
+.score {
+    padding: 10px 0px;
+    margin: 0;
+    font-family: timer;
+    font-size: 50px;
+    color: #F59E0B;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border: none;
+    background-color: inherit;
+    margin: 15px;
+}
+
+.btn {
+    font-family: timer;
+    background-color: inherit;
+    color: #78350F;
+    border-radius: 3px;
+    border: 1px solid ;
+    margin:0px 2px;
+    padding: 5px 5px;
+}
+
+#clock {
+    margin: auto -40px;
+    border: 2px dashed #F59E0B;
+    padding: 20px;
+    color: black;
+    font-family: timer;
+    
+}
+
+#mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#newGame {
+    margin-top: px;
+    margin-bottom: 15px;
+    padding: 5px 5px;    
+    border-radius: 5px;
+    border: 2px dashed ;
+    color: #78350F;
+    background-color: inherit;
+}
