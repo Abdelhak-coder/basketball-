@@ -7,11 +7,13 @@
 body {
     background-color: #FFFBEB;
     margin: 0; 
+    
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+
 
 }
 
