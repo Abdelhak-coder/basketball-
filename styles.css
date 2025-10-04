@@ -6,7 +6,7 @@
 /* #FFFBEB */
 
 body {
-    background-color: RED;
+    background-color: #FFFBEB;
     margin: 0; 
     
 }
@@ -35,7 +35,7 @@ h3 {
     border-radius: 5px;
     padding: 0 10px;
     width: 70px;
-    background-color: red;
+    background-color: #FDE68A;
     text-align: center;
     
 }
